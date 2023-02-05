@@ -1,0 +1,36 @@
+import { objectWithoutProperties as _objectWithoutProperties, extends as _extends } from '../_virtual/_rollupPluginBabelHelpers.js';
+import React from 'react';
+
+var _excluded = ["size", "color"];
+function HomeStar(_ref) {
+  var _ref$size = _ref.size,
+      size = _ref$size === void 0 ? 24 : _ref$size,
+      _ref$color = _ref.color,
+      color = _ref$color === void 0 ? 'currentColor' : _ref$color,
+      restProps = _objectWithoutProperties(_ref, _excluded);
+
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    className: "icon icon-tabler icon-tabler-home-star",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    stroke: color,
+    strokeWidth: "2",
+    fill: "none",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }, restProps), /*#__PURE__*/React.createElement("path", {
+    stroke: "none",
+    d: "M0 0h24v24H0z",
+    fill: "none"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M19.258 10.258l-7.258 -7.258l-9 9h2v7a2 2 0 0 0 2 2h4"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M9 21v-6a2 2 0 0 1 2 -2h1.5"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M17.8 20.817l-2.172 1.138a0.392 .392 0 0 1 -.568 -.41l.415 -2.411l-1.757 -1.707a0.389 .389 0 0 1 .217 -.665l2.428 -.352l1.086 -2.193a0.392 .392 0 0 1 .702 0l1.086 2.193l2.428 .352a0.39 .39 0 0 1 .217 .665l-1.757 1.707l.414 2.41a0.39 .39 0 0 1 -.567 .411l-2.172 -1.138z"
+  }));
+}
+
+export { HomeStar as default };

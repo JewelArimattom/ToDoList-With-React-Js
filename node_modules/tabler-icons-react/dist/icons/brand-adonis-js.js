@@ -1,0 +1,34 @@
+import { objectWithoutProperties as _objectWithoutProperties, extends as _extends } from '../_virtual/_rollupPluginBabelHelpers.js';
+import React from 'react';
+
+var _excluded = ["size", "color"];
+function BrandAdonisJs(_ref) {
+  var _ref$size = _ref.size,
+      size = _ref$size === void 0 ? 24 : _ref$size,
+      _ref$color = _ref.color,
+      color = _ref$color === void 0 ? 'currentColor' : _ref$color,
+      restProps = _objectWithoutProperties(_ref, _excluded);
+
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    className: "icon icon-tabler icon-tabler-brand-adonis-js",
+    width: size,
+    height: size,
+    viewBox: "0 0 24 24",
+    stroke: color,
+    strokeWidth: "2",
+    fill: "none",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }, restProps), /*#__PURE__*/React.createElement("path", {
+    stroke: "none",
+    d: "M0 0h24v24H0z",
+    fill: "none"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M8.863 16.922c1.137 -.422 1.637 -.922 3.137 -.922s2 .5 3.138 .922c.713 .264 1.516 -.102 1.778 -.772c.126 -.32 .11 -.673 -.044 -.983l-3.708 -7.474c-.297 -.598 -1.058 -.859 -1.7 -.583a1.24 1.24 0 0 0 -.627 .583l-3.709 7.474c-.321 .648 -.017 1.415 .679 1.714c.332 .143 .715 .167 1.056 .04z"
+  }));
+}
+
+export { BrandAdonisJs as default };
